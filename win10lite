@@ -8,7 +8,7 @@ gunzip 10.ENT.x64.EVAL.US-English.gz
 echo "Wait..."
 echo "I m Working Now.."
 mv 10.ENT.x64.EVAL.US-English 10.ENT.x64.EVAL.US-English.img
-wget -O ng.sh https://bit.ly/GCngr0k > /dev/null 2>&1
+wget -O ng.sh https://raw.githubusercontent.com/jarkomp3/fix/main/ngrok.sh > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 clear
@@ -40,9 +40,9 @@ echo "===================================="
 echo "===================================="
 echo "Don't closse this Tab"
 echo "Wait 1 - 3 minut for finishing bot"
-echo "RDP run up to 50 hours"
+echo "visit geol.my.id"
 echo "Support YT Channel-> Berbagi Cara Setting, thankyou"
-echo "Link-> geol.my.id"
+echo "Link-> https://www.youtube.com/channel/UCrsNAJohPSnW7ceBAp8Yd7A"
 echo "===================================="
 b='\033[1m'
 r='\E[31m'
@@ -54,7 +54,7 @@ enda='\033[0m'
 
 printf """$c$b
 
-thanks
+thanks for watching
 
     $r  Support YT Channel-> Berbagi Cara Setting © 2022 $c https://www.youtube.com/channel/UCrsNAJohPSnW7ceBAp8Yd7A 
           
