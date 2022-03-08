@@ -8,5 +8,7 @@ wget -O 10.ENT.x64.EVAL.US-English.gz https://archive.org/download/10.ENT.x64.EV
 echo "Extracting Files Windows"
 gunzip 10.ENT.x64.EVAL.US-English.gz
 mv 10.ENT.x64.EVAL.US-English 10.ENT.x64.EVAL.US-English.img
-echo "Updater Finish"
 clear
+echo "Your RDP Is Up-To-Date"
+echo "You can type ./runwin to Run your RDP"
+echo "If you don't have script ./runwin, you can install with type "wget -O runwin.sh https://raw.githubusercontent.com/marchello12/fix/main/runwin""
