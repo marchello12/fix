@@ -4,6 +4,10 @@ echo "Updating apt-get"
 apt-get update
 echo "Installing qemu-system-x64"
 apt-get install qemu-system-x86 -y
+echo "Updating/Installing "runwin""
+rm -rf runwin.sh
+wget -O runwin.sh https://github.com/marchello12/fix/raw/main/runwin
+chmod +x runwin.sh
 rm -rf 10.ENT.x64.EVAL.US-English 10.ENT.x64.EVAL.US-English.img 10.ENT.x64.EVAL.US-English.gz ngrok ngrok.zip ng.sh > /dev/null 2>&1
 echo "Updating/installing Windows, Size Windows: 3.9 GB. Its take a view minutes"
 wget -O 10.ENT.x64.EVAL.US-English.gz https://archive.org/download/10.ENT.x64.EVAL.USEnglish_201902/10.ENT.x64.EVAL.US-English.gz
