@@ -4,7 +4,6 @@ echo "Download windows files"
 echo "Skipped, No Updates Available"
 echo "Wait..."
 echo "I m Working Now.."
-mv 10.ENT.x64.EVAL.US-English 10.ENT.x64.EVAL.US-English.img
 ./ng.sh
 clear
 echo "======================="
