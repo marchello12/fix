@@ -1,6 +1,5 @@
 #! /bin/bash
 # Make Instance Ready for Remote Desktop or RDP
-apt-get update
 echo "Download windows files"
 echo "Skipped, No Updates Available"
 echo "Wait..."
