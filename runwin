@@ -1,7 +1,10 @@
 #! /bin/bash
 # Make Instance Ready for Remote Desktop or RDP
-echo "Download windows files"
-echo "Skipped, No Updates Available"
+echo "If you don't install script RDP Windows, you can type "wget -O update.sh https://github.com/marchello12/fix/raw/main/update""
+echo "then if you finish installed RDP, type "chmod +x update.sh" before start RDP"
+echo "-------------------------------------------------------"
+echo "Starting RDP Windows"
+echo "RDP: Selected Windows 10"
 echo "-- AUTHTOKEN NGROK --"
 ./ng.sh
 clear
@@ -18,8 +21,7 @@ echo "in - India (Mumbai)"
 read -p "choose ngrok region: " CRP
 ./ngrok tcp --region $CRP 3388 &>/dev/null &
 clear
-apt-get install qemu-system-x86 -y
-echo "Wait..."
+echo "Please wait....."
 echo "Starting Windows"
 qemu-system-x86_64 -hda 10.ENT.x64.EVAL.US-English.img -m 8G -smp cores=4 -net user,hostfwd=tcp::3388-:3389 -net nic -object rng-random,id=rng0,filename=/dev/urandom -device virtio-rng-pci,rng=rng0 -vga vmware -nographic &>/dev/null &
 clear
