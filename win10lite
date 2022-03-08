@@ -3,7 +3,7 @@
 echo "Download windows files"
 echo "Skipped, No Updates Available"
 echo "Wait..."
-echo "I m Working Now.."
+echo "-- AUTHTOKEN NGROK --"
 ./ng.sh
 clear
 echo "======================="
