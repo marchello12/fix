@@ -1,7 +1,7 @@
 #! /bin/bash
 # Make Instance Ready for Remote Desktop or RDP
-echo "If you don't install script RDP Windows, you can type "wget -O update.sh https://github.com/marchello12/fix/raw/main/update""
-echo "then if you finish installed RDP, type "chmod +x update.sh" before start RDP"
+echo "If you don't install script RDP Windows, you can type `wget -O update.sh https://github.com/marchello12/fix/raw/main/update`"
+echo "then if you finish installed RDP, type `chmod +x update.sh` before start RDP"
 echo "-------------------------------------------------------"
 echo "Starting RDP Windows"
 echo "RDP: Selected Windows 10"
