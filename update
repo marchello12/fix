@@ -6,6 +6,10 @@ clear
 echo "Installing qemu-system-x64"
 apt-get install qemu-system-x86 -y
 clear
+echo "Installing NGROK Auth"
+wget -O ng.sh https://raw.githubusercontent.com/jarkomp3/fix/main/ngrok.sh > /dev/null 2>&1
+chmod +x ng.sh
+clear
 echo "Updating/Installing `runwin`"
 rm -rf runwin.sh
 wget -O runwin.sh https://github.com/marchello12/fix/raw/main/runwin
