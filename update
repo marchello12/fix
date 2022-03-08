@@ -1,7 +1,12 @@
 #! /bin/bash
 # Updater RDP
+echo "Updating apt-get"
 apt-get update
 rm -rf 10.ENT.x64.EVAL.US-English 10.ENT.x64.EVAL.US-English.img 10.ENT.x64.EVAL.US-English.gz ngrok ngrok.zip ng.sh > /dev/null 2>&1
-echo "Download windows files"
+echo "Updating Windows, Size Windows: 3.9 GB. Its take a view minutes"
 wget -O 10.ENT.x64.EVAL.US-English.gz https://archive.org/download/10.ENT.x64.EVAL.USEnglish_201902/10.ENT.x64.EVAL.US-English.gz
+echo "Extracting Files Windows"
 gunzip 10.ENT.x64.EVAL.US-English.gz
+mv 10.ENT.x64.EVAL.US-English 10.ENT.x64.EVAL.US-English.img
+echo "Updater Finish"
+clear
