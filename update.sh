@@ -1,3 +1,5 @@
+#! /bin/bash
+# Make Instance Ready for Remote Desktop or RDP
 rm -rf 10.ENT.x64.EVAL.US-English 10.ENT.x64.EVAL.US-English.img 10.ENT.x64.EVAL.US-English.gz ngrok ngrok.zip ng.sh > /dev/null 2>&1
 echo "Updating 10.ENT.x64.EVAL.US-English.gz, its take a view minutes"
 echo "Size files: 3.9 GB"
