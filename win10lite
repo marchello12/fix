@@ -2,7 +2,6 @@
 # Make Instance Ready for Remote Desktop or RDP
 echo "Download windows files"
 echo "Skipped, No Updates Available"
-echo "Wait..."
 echo "-- AUTHTOKEN NGROK --"
 ./ng.sh
 clear
